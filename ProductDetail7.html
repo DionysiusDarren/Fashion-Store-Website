@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Wijaya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="picture/Logo.png" width="200" height="100" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a class="active" href="Product.html">Product</a></li>
+                <li><a href="Event.html">Event</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li id="bag"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+
+        </div>
+    </section>
+
+    <section id="productdetail" class="section-p1">
+        <div class="singleimage">
+            <img src="picture/p7.png" width="100%" id="mainimg" class="big-img" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="Picture/p1.png" width="100%" class="small-img" alt="">
+                </div>
+                 <div class="small-img-col">
+                    <img src="Picture/p2.png" width="100%" class="small-img" alt="">
+                </div>
+                 <div class="small-img-col">
+                    <img src="Picture/p3.png" width="100%" class="small-img" alt="">
+                </div>
+                 <div class="small-img-col">
+                    <img src="Picture/p5.png" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="singledetail">
+            <h6>Pants</h6>
+            <h4>Casual Harem Pants</h4>
+            <h2>$88</h2>
+            <select id="size-select">
+                <option value="">Select Size</option>
+                <option value="XXL">XXL</option>
+                <option value="XL">XL</option>
+                <option value="L">L</option>
+                <option value="M">M</option>
+                <option value="S">S</option>
+            </select>
+            <input type="number" value="1" id="product-value">
+            <button id="addBtn" class="normal">Add to cart</button>
+            <button id="buy" class="normal">Buy</button>
+            <div id="notification">Added to cart!</div>
+            <h4>Product Details</h4>
+            <span>Elevate your everyday wardrobe with the Casual Harem Pants, where laid-back comfort meets bold, unconventional fashion. 
+                Designed for those who value ease and expression, these pants offer a unique silhouette that flows with your every move. 
+                Flow freely in fashion-forward comfort. The Casual Harem Pants are your go-to for everyday movement and mindful style.</span><br><br>
+            <span><strong>Features:</strong></span><br>
+            <span>Relaxed Drop-Crotch Fit: Distinctive harem style provides ultimate freedom and comfort. <br><br>
+
+            Elastic Waistband: Flexible, secure fit that adapts to your waist effortlessly. <br><br>
+
+            Tapered Ankles: Stylishly gathered cuffs keep the look clean and modern.</span><br>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="Picture/Logo.png" width="150" height="75" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> POJ Avenue Kav. 3, Semarang</p>
+            <p><strong>Phone: </strong> +62 999 9999 9999</p>
+            <p><strong>Work Hours: </strong> 09.00 - 17.00, Monday - Friday</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="sosmed">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="AboutUs.html">About us</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col2">
+            <h4>Install</h4>
+            <p>From Google Play or App Store</p>
+            <div class="row">
+                <img src="Picture/play.jpg" alt="">
+                <img src="Picture/app.jpg" alt="">
+            </div>
+            <p>Payment Methods</p>
+            <img src="Picture/Payment.png" width="150" height="62" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2025, Christian Wijaya</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
